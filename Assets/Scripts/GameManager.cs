@@ -66,6 +66,12 @@ public class GameManager : MonoBehaviour
 
                 exitButton.SetActive(true);
 
+                ShootButton.SetActive(false);
+
+                joyStick.SetActive(false);
+
+                MegaShootButton.SetActive(false);
+
                 break;
             case GameManagerState.Gameplay:
 
@@ -81,7 +87,7 @@ public class GameManager : MonoBehaviour
                 exitButton.SetActive(false);
                 BestScoreUI.SetActive(false);
 
-                joyStick.SetActive(false);
+                joyStick.SetActive(true);
 
                 ShootButton.SetActive(true);
 

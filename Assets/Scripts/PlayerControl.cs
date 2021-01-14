@@ -63,10 +63,10 @@ public class PlayerControl : MonoBehaviour
     void Update()
     {
 
-        float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
-        //float x = mContr.Horizontal();
-        //float y = mContr.Vertical();
+        //float x = Input.GetAxisRaw("Horizontal");
+        //float y = Input.GetAxisRaw("Vertical");
+        float x = mContr.Horizontal();
+        float y = mContr.Vertical();
 
         //float x = Input.acceleration.x;
         //float y = Input.acceleration.y - accelStartY/2;
